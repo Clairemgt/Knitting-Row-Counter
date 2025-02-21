@@ -1,15 +1,21 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Phudu:wght@300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous entries: </p>
-        <script src="index.js">
-            nnerText
-        </script>
+        <div class="container">
+            <h1>Welcome to my cozy knitting rows counter !</h1>
+            <h2>Current stitches' rows:</h2><h2 id="count-el">0</h2>
+            <br><br>
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <br><br>
+            <p id="save-el" class="savedRows">Previous saved rows: </p>
+            <br>
+            <p class="totalRows">Total saved rows: </p><p id="total-el" class="totalRows">0</p>
+        </div>
+        <script src="index.js"></script>
     </body>
+    <footer>AI-generated image</footer>
 </html>

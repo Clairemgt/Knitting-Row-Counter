@@ -1,38 +1,93 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("knitting_AIgenerated.png");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
     text-align: center;
+    height: 90vh;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(242, 235, 223, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #F2EBDC;
+    min-height: 80%;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font: normal normal 500 3.2rem / 2.8rlh 'Cherry Bomb One', serif;
+    color: #BF5E49;
+    text-shadow: 1px 1px 1px #F2EBDC,
+      2px 2px 1px #D99379,
+      3px 3px 1px #D99379,
+      4px 4px 1px #D99379,
+      5px 5px 1px #D99379,
+      6px 6px 1px #D99379,
+      7px 7px 1px #D99379,
+      8px 8px 1px #D99379,
+      9px 9px 1px #D99379,
+      10px 10px 1px #D99379,
+      11px 11px 1px #D99379,
+      12px 12px 1px #D99379;
+    text-align: center;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 35px;
+    opacity:0.8;
+    margin: 10px;
+    color: #732E1F;
+    font-family: Phudu;
+    text-shadow: 1px 1px 0 #BF5E49;
+    display: inline;
+}
+
+p {
+    font-family: Phudu;
+    display: inline;
+}
+
+.totalRows {
+    font-size: 17px;
+}
+
+.savedRows {
+    font-size: 15px;
 }
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #F2EBDC;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px #F2EBDC;
+    font-family: "Sour Gummy";
+    font-size: 20px;
+    transition: all 250ms ease-out;
+}
+
+button:hover{
+    transform: translateY(-10%);
 }
 
 #increment-btn {
-    background: darkred;
+    background: #A68F7B;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #DAAC92;
 }
 
+footer {
+    position:absolute;
+    bottom:10;
+    right:10;
+    font-family: Phudu;
+    color: #F2EBDC;
+    text-shadow: 1px 1px 0 #A68F7B;
+    font-size: 12px;
+}
